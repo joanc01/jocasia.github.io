@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joan S. Casia — Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo-section">
+        <img src="profile.jpg" alt="Joan S. Casia" class="logo-image">
+        <h1 class="logo">Joan S. Casia</h1>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="contact-section">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <p>I'm always interested in hearing about new projects and learning opportunities. Feel free to contact me through the form below or reach out on social media.</p>
+
+        <div class="contact-wrapper">
+          <!-- Contact Form -->
+          <article class="contact-form-section">
+            <h3>Send me a message</h3>
+            <form class="contact-form" action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" value="Joan S. Casia" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" value="joancasia019@gmail.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" value="CCCS 101 - INTRODUCTION TO COMPUTING - AY2025-26" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Please briefly describe your request (e.g. 'CCCS 101 — final project: review and feedback')." required></textarea>
+              </div>
+
+              <button type="submit" class="button button-primary">Send Message</button>
+            </form>
+          </article>
+
+          <!-- Resume Section -->
+          <article class="resume-section">
+            <h3>Resume</h3>
+            
+            <section class="resume-block">
+              <h4>Education</h4>
+              <div class="resume-item">
+                <h5>BS Computer Science</h5>
+                <p class="resume-meta">Camarines Sur Polytechnic Colleges | Currently Enrolled (1st Year)</p>
+                <p>Coursework includes Introduction to Computing, Fundamentals of Programming, and Linear Algebra.</p>
+              </div>
+            </section>
+
+            <section class="resume-block">
+              <h4>Skills</h4>
+              <ul class="skills-list">
+                <li><strong>Web Development:</strong> HTML5, CSS3, Responsive Design, Flexbox, CSS Grid</li>
+                <li><strong>Programming:</strong> Python, JavaScript, CSS, HTML</li>
+                <li><strong>Version Control:</strong> Git, GitHub</li>
+                <li><strong>Design:</strong> Web Design Principles, User Interface (UI) Design, UX Fundamentals</li>
+                <li><strong>Tools:</strong> Text Editors (VS Code), Browser Developer Tools</li>
+              </ul>
+            </section>
+
+            <section class="resume-block">
+              <h4>Experience</h4>
+              <div class="resume-item">
+                <h5>Coursework & Personal Projects</h5>
+                <p class="resume-meta">Camarines Sur Polytechnic Colleges | 2024 - Present</p>
+                <p>Built multiple web projects as part of coursework and personal learning. Developed static websites, interactive applications, and practiced modern web development techniques.</p>
+              </div>
+            </section>
+
+            <section class="resume-block">
+              <h4>Certifications & Achievements</h4>
+              <ul>
+                <li>Completed a web development project involving the design and deployment of a personal portfolio website</li>
+                <li>Successfully implemented responsive web design for cross-device compatibility</li>
+                <li>Completed a programming project involving a mini machine program</li>
+                <li>Accomplished the implementation of 3D graphic transformations as part of a coursework requirement</li>
+              </ul>
+            </section>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year3"></span> Joan S. Casia | <a href="https://github.com/joanc01" target="_blank">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year3').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

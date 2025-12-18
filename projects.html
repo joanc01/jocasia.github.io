@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joan S. Casia — Projects</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo-section">
+        <img src="profile.jpg" alt="Joan S. Casia" class="logo-image">
+        <h1 class="logo">Joan S. Casia</h1>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="projects-section">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <p>These are course and personal projects that demonstrate my foundational web development and coding skills.</p>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1 -->
+          <article class="project-card">
+            <img src="images/project1-shot.svg" alt="Personal Portfolio Website project image">
+            <div class="project-body">
+              <h3>Personal Portfolio Website</h3>
+              <p>A multi-page professional portfolio website designed to present personal information, showcase selected projects, and provide a professionally styled contact and resume section.</p>
+              <p class="meta">Technologies: HTML, CSS, Flexbox, CSS Grid, Responsive Design</p>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="project-card">
+            <img src="images/project2.jpg" alt="3D Graphic Transformations project image">
+            <div class="project-body">
+              <h3>3D Graphic Transformations- Mercedes-Benz Logo</h3>
+              <p>An interactive 3D graphics project featuring advanced transformation techniques such as rotation, scaling, reflection, and translation.</p>
+              <p class="meta">Technologies: HTML, CSS, JavaScript, 3D Graphics</p>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="project-card">
+            <img src="images/project3.jpg" alt="Mini-Machine Calculator project image">
+            <div class="project-body">
+              <h3>Mini-Machine Calculator</h3>
+              <p>A responsive web-based calculator that performs basic arithmetic operations with a clean interface. Initially planned as a Python project, but it was implemented using HTML, CSS, JavaScript, and UI Design.</p>
+              <p class="meta">Technologies: HTML, CSS, JavaScript, UI Design</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year2"></span> Joan S. Casia | <a href="https://github.com/joanc01" target="_blank">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year2').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

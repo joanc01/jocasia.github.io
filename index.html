@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joan S. Casia — Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo-section">
+        <img src="profile.jpg" alt="Joan S. Casia" class="logo-image">
+        <h1 class="logo">Joan S. Casia</h1>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-image">
+            <img src="profile.jpg" alt="Joan S. Casia Portrait" class="hero-photo">
+          </div>
+          <div class="hero-text">
+            <h1>Hi, I'm Joan</h1>
+            <p>I'm a 1st year BS Computer Science student at Camarines Sur Polytechnic Colleges. I build simple web projects, learn programming fundamentals, and enjoy solving problems with code.</p>
+            <div class="cta-buttons">
+              <a href="projects.html" class="button button-primary">View My Projects</a>
+              <a href="contact.html" class="button button-secondary">Get in Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I am a motivated computer science student with a passion for web development and problem-solving. I have hands-on experience with Python, HTML, CSS, and JavaScript through both coursework and personal projects. I'm committed to building clean, responsive, and user-friendly web experiences.</p>
+        
+        <article class="skills-section">
+          <h3>Technical Skills</h3>
+          <ul class="skills-list">
+            <li><strong>Front-end Web:</strong> HTML5 (semantic markup), CSS3 (responsive layouts, Flexbox, Grid), Accessible markup</li>
+            <li><strong>Programming:</strong> JavaScript (DOM & event handling), Python (fundamentals)</li>
+            <li><strong>Version Control & Workflow:</strong> Git, GitHub, basic command-line Git</li>
+            <li><strong>Design & UX:</strong> Responsive design, UI fundamentals, basic UX considerations, visual hierarchy</li>
+            <li><strong>Tools:</strong> VS Code, Browser DevTools, basic build/test workflow (local dev, manual testing)</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Joan S. Casia | <a href="https://github.com/joanc01" target="_blank">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
